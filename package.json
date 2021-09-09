@@ -1,0 +1,26 @@
+{
+  "name": "music-bot",
+  "main": "bot.js",
+  "author": "PentaCore",
+  "version": "5.0.0",
+  "repository": "https://github.com/ZerioDev/Music-bot.git",
+  "description": "A complete code to download for a music bot. Using a module (discord-player). based on ZerioDev/Music-bot",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/tsc",
+    "start": "node out/Bot.js",
+    "clean": "rm -rf out"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.6.0",
+    "discord-player": "^5.1.0",
+    "discord.js": "^13.1.0",
+    "ffmpeg-static": "^4.4.0",
+    "source-map-loader": "^2.0.1",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.32"
+  }
+}
